@@ -1,0 +1,64 @@
+
+###
+
+POST http://localhost:4002/clienteDB
+content-type: application/json
+
+{
+    "name": "João silva",
+    "cpf": "00604003072"
+}
+//cadastrar usuário no banco
+###
+
+GET http://localhost:4002/clienteDB
+content-type: application/json
+
+//listar usuários do banco 
+###
+
+GET http://localhost:4002/clienteDB/41437891080
+content-type: application/json
+###
+
+DELETE http://localhost:4002/clienteDB/54349451072
+content-type: application/json
+// buscar no banco o usuário de cpf 41437891080
+###
+
+POST http://localhost:4002/clienteJSON 
+content-type: application/json
+
+{
+    "nome": "Joana amorim sousa",
+    "cpf": "78784544154"
+}
+
+###
+// cadastrar usuário no json clientes.json
+
+DELETE  http://localhost:4002/clienteJSON/090101234953
+content-type: application/json
+
+// deletar cliente por cpf
+
+###
+PUT  http://localhost:4002/clienteJSON/090101234953
+content-type: application/json
+
+{
+    "nome": "Joana amorim sousa",
+    "cpf": "78784544154"
+}
+
+// atualizar nome do cliente de cpf  090101234953 no json
+
+###
+GET  http://localhost:4002/clienteJSON
+
+//listar os clientes no json
+
+###
+GET  http://localhost:4002/clienteJSON/090101234953
+
+// localizar cliente com seguinte cpf no json

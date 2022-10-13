@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nome": "José silva",
+      "cpf": "5245781547"
+    },
+    {
+      "nome": "João Moreira",
+      "cpf": "78784544154"
+    },
+    {
+      "nome": "Mariana amorim",
+      "cpf": "5411498754"
+    },
+    {
+      "nome": "Maria silva",
+      "cpf": "88349451072"
+    },
+    {
+      "nome": "Maria souza",
+      "cpf": "88349451072"
+    },
+    {
+      "nome": "Joana amorim sousa",
+      "cpf": "090101234953"
+    }
+  ]
+}
